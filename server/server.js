@@ -1,15 +1,15 @@
 require('dotenv').config();
 const express=require('express');
 const port=process.env.PORT || 5000;
+const database=require('./config/database');
 const app=express();
 
 
 app.use(express.json());
-
+database();
 app.get('/',(req,res)=>{
     res.json({message:"this is the server"});
 });
-
 
 app.listen(port,(err)=>{
     if(err){
