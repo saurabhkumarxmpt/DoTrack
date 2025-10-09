@@ -2,7 +2,7 @@
 const HomePage=()=>{
     return(
         <>
-        <h1>this is the website home page</h1>
+        <p>this is the website home page for many</p>
         </>
     )
 }
