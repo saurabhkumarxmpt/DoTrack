@@ -1,4 +1,4 @@
-const Header=()=>{
+const Navbar=()=>{
     return(
         <>
         <h1>this is a header</h1>
@@ -6,4 +6,4 @@ const Header=()=>{
     )
 }
 
-export default Header;
+export default Navbar;
