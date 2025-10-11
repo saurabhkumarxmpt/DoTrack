@@ -4,6 +4,7 @@ import LoginPage from '../pages/Auth/Login';
 import AuthLayout from '../layouts/AuthLayout';
 import MainLayout from '../layouts/MainLayout';
 import About from '../pages/Home/About';
+import Signup from '../pages/Auth/SignUp';
 
 const AppRoutes=()=>{
     return(
@@ -15,6 +16,7 @@ const AppRoutes=()=>{
             </Route>
             <Route element={<AuthLayout/>}>
                 <Route path='/login' element={<LoginPage/>}/>
+                <Route path='/signup' element={<Signup/>} />
             </Route>
         </Routes>
     )
